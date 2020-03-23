@@ -19,5 +19,7 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  result[nds] = {}
+  result = {}
+  gross_for_director(nds)
+  
 end
